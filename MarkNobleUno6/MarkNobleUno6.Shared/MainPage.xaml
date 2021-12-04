@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-      <TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+      <TextBlock Text="Hello, Github Pages!" Margin="20" FontSize="30" />
     </Grid>
 </Page>
