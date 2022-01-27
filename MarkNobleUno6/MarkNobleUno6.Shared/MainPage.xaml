@@ -18,8 +18,14 @@
         <CommandBar Grid.Row="0" Content="Main Page" />
         <StackPanel Grid.Row="1">
             <!--<TextBlock x:Uid="MainPage_IntroText" Text="Main Page Non-local" />-->
+            <FlipView MaxWidth="1140" Height="360">
+                <Image Source="ms-appx:///Assets/bannerSecurity.jpg" AutomationProperties.Name="Security" Stretch="UniformToFill"/>
+                <Image Source="ms-appx:///Assets/bannerVoluntarism.jpg" AutomationProperties.Name="Agorism" Stretch="UniformToFill"/>
+                <Image Source="ms-appx:///Assets/bannerCareer.jpg" AutomationProperties.Name="Career" Stretch="UniformToFill"/>
+                <Image Source="ms-appx:///Assets/bannerTrains.jpg" AutomationProperties.Name="Trains" Stretch="UniformToFill"/>
+            </FlipView>
 
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <StackPanel Orientation="Vertical">
                     <TextBlock x:Uid="MainPage_BlogHeading" Text="40° North Blog" FontSize="24" FontFamily="Protomolecule Regular" />
                     <HyperlinkButton x:Uid="MainPage_BlogContent" Content="40° North Blog" NavigateUri="https://40north.wordpress.com/" />
@@ -38,7 +44,7 @@
                     <TextBlock x:Uid="MainPage_StateHeading" Text="The State" FontSize="24" FontFamily="Protomolecule Regular" />
                     <HyperlinkButton x:Uid="MainPage_StateWhatIs" Content="What is The State?" NavigateUri="https://www.zeroaggressionproject.org/mental-lever/the-state/" />
                     <HyperlinkButton x:Uid="MainPage_StateTinyDot" Content="The Tiny Dot" NavigateUri="https://youtu.be/H6b70TUbdfs" />
-                    <HyperlinkButton x:Uid="MainPage_StateFranklinVoterSearch" Content="Franklin County Voter Search" NavigateUri="https://vote.franklincountyohio.gov/voter/voterSearch.cfm" />
+                    <HyperlinkButton x:Uid="MainPage_StateFranklinVoterSearch" Content="Franklin County Voter Search" NavigateUri="https://vote.franklincountyohio.gov/Voters/Voter-Information-Search" />
                     <HyperlinkButton x:Uid="MainPage_StateDelawareVoterSearch" Content="Delaware County Voter Search" NavigateUri="https://lookup.boe.ohio.gov/vtrapp/delaware/vtrlookup.aspx" />
                     <HyperlinkButton x:Uid="MainPage_StateOhioVoterSearch" Content="Ohio Voter Search" NavigateUri="http://voterlookup.sos.state.oh.us/voterlookup.aspx" />
                     <HyperlinkButton x:Uid="MainPage_StateOhioVoterData" Content="Ohio Voter Data" NavigateUri="http://www2.sos.state.oh.us/pls/voter/f?p=111:1" />

@@ -120,25 +120,25 @@
   <data name="ApplicationName" xml:space="preserve">
     <value>MarkNobleUno6</value>
   </data>
-  <data name="MainPage_BlogApp.Text" xml:space="preserve">
+  <data name="MainPage_BlogApp.Content" xml:space="preserve">
     <value>40° North App (Windows UWP)</value>
   </data>
-  <data name="MainPage_BlogContent.Text" xml:space="preserve">
+  <data name="MainPage_BlogContent.Content" xml:space="preserve">
     <value>40° North Blog</value>
   </data>
   <data name="MainPage_BlogHeading.Text" xml:space="preserve">
     <value>40° North Blog</value>
   </data>
-  <data name="MainPage_BlogTwitter.Text" xml:space="preserve">
+  <data name="MainPage_BlogTwitter.Content" xml:space="preserve">
     <value>@MarkNoble Twitter</value>
   </data>
-  <data name="MainPage_BlogYouTube.Text" xml:space="preserve">
+  <data name="MainPage_BlogYouTube.Content" xml:space="preserve">
     <value>MarkNoble on YouTube</value>
   </data>
   <data name="MainPage_DownloadsHeading.Text" xml:space="preserve">
     <value>Downloads</value>
   </data>
-  <data name="MainPage_DownloadsSkins.Text" xml:space="preserve">
+  <data name="MainPage_DownloadsSkins.Content" xml:space="preserve">
     <value>Windows Media Player Skins</value>
   </data>
   <data name="MainPage_IntroText.Text" xml:space="preserve">
@@ -147,46 +147,46 @@
   <data name="MainPage_NewsHeading.Text" xml:space="preserve">
     <value>News</value>
   </data>
-  <data name="MainPage_NewsReason.Text" xml:space="preserve">
+  <data name="MainPage_NewsReason.Content" xml:space="preserve">
     <value>Reason Hit &amp; Run Blog</value>
   </data>
-  <data name="MainPage_NewsWinCentral.Text" xml:space="preserve">
+  <data name="MainPage_NewsWinCentral.Content" xml:space="preserve">
     <value>Windows Central</value>
   </data>
-  <data name="MainPage_StateDelawarePropertySearch.Text" xml:space="preserve">
+  <data name="MainPage_StateDelawarePropertySearch.Content" xml:space="preserve">
     <value>Delaware Conuty Property Search</value>
   </data>
-  <data name="MainPage_StateDelawareVoterSearch.Text" xml:space="preserve">
+  <data name="MainPage_StateDelawareVoterSearch.Content" xml:space="preserve">
     <value>Delaware County Voter Search</value>
   </data>
-  <data name="MainPage_StateFranklinCaseSearch.Text" xml:space="preserve">
+  <data name="MainPage_StateFranklinCaseSearch.Content" xml:space="preserve">
     <value>Franklin County Case Search</value>
   </data>
-  <data name="MainPage_StateFranklinCourtSearch.Text" xml:space="preserve">
+  <data name="MainPage_StateFranklinCourtSearch.Content" xml:space="preserve">
     <value>Franklin County Court Search</value>
   </data>
-  <data name="MainPage_StateFranklinPropertySearch.Text" xml:space="preserve">
+  <data name="MainPage_StateFranklinPropertySearch.Content" xml:space="preserve">
     <value>Franklin County Property Search</value>
   </data>
-  <data name="MainPage_StateFranklinVoterData.Text" xml:space="preserve">
+  <data name="MainPage_StateFranklinVoterData.Content" xml:space="preserve">
     <value>Franklin County Voter Data</value>
   </data>
-  <data name="MainPage_StateFranklinVoterSearch.Text" xml:space="preserve">
+  <data name="MainPage_StateFranklinVoterSearch.Content" xml:space="preserve">
     <value>Franklin County Voter Search</value>
   </data>
   <data name="MainPage_StateHeading.Text" xml:space="preserve">
     <value>The State</value>
   </data>
-  <data name="MainPage_StateOhioVoterData.Text" xml:space="preserve">
+  <data name="MainPage_StateOhioVoterData.Content" xml:space="preserve">
     <value>Ohio Voter Data</value>
   </data>
-  <data name="MainPage_StateOhioVoterSearch.Text" xml:space="preserve">
+  <data name="MainPage_StateOhioVoterSearch.Content" xml:space="preserve">
     <value>Ohio Voter Search</value>
   </data>
-  <data name="MainPage_StateTinyDot.Text" xml:space="preserve">
+  <data name="MainPage_StateTinyDot.Content" xml:space="preserve">
     <value>The Tiny Dot</value>
   </data>
-  <data name="MainPage_StateWhatIs.Text" xml:space="preserve">
+  <data name="MainPage_StateWhatIs.Content" xml:space="preserve">
     <value>What is The State?</value>
   </data>
 </root>

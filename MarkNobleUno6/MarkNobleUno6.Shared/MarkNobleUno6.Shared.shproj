@@ -16,6 +16,12 @@
     <_Globbed_Compile Remove="Radar.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
+    <_Globbed_Content Remove="Assets\bannerCareer.jpg" />
+    <_Globbed_Content Remove="Assets\bannerSecurity.jpg" />
+    <_Globbed_Content Remove="Assets\bannerTrains.jpg" />
+    <_Globbed_Content Remove="Assets\bannerVoluntarism.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <_Globbed_PRIResource Remove="Strings\fr\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
