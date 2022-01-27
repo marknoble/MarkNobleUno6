@@ -17,7 +17,45 @@
 
         <CommandBar Grid.Row="0" Content="Main Page" />
         <StackPanel Grid.Row="1">
-            <TextBlock Text="Main Page" />
+            <!--<TextBlock x:Uid="MainPage_IntroText" Text="Main Page Non-local" />-->
+
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Uid="MainPage_BlogHeading" Text="40° North Blog" FontSize="24" FontFamily="Protomolecule Regular" />
+                    <HyperlinkButton x:Uid="MainPage_BlogContent" Content="40° North Blog" NavigateUri="https://40north.wordpress.com/" />
+                    <HyperlinkButton x:Uid="MainPage_BlogApp" Content="40° North App (Windows UWP)" NavigateUri="https://www.microsoft.com/store/apps/9nblggh4nfzb" />
+                    <HyperlinkButton x:Uid="MainPage_BlogTwitter" Content="@MarkNoble Twitter" NavigateUri="https://twitter.com/marknoble" />
+                    <HyperlinkButton x:Uid="MainPage_BlogYouTube" Content="MarkNoble on YouTube" NavigateUri="https://www.youtube.com/channel/UCHaR_8erljqA7f2BNjr4i4w" />
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Uid="MainPage_NewsHeading" Text="News" FontSize="24" FontFamily="Protomolecule Regular" />
+                    <HyperlinkButton x:Uid="MainPage_BlogReason" Content="Reason Hit &amp; Run" NavigateUri="https://reason.com/blog" />
+                    <HyperlinkButton x:Uid="MainPage_BlogWinCentral" Content="Windows Central" NavigateUri="https://windowscentral.com/" />
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Uid="MainPage_StateHeading" Text="The State" FontSize="24" FontFamily="Protomolecule Regular" />
+                    <HyperlinkButton x:Uid="MainPage_StateWhatIs" Content="What is The State?" NavigateUri="https://www.zeroaggressionproject.org/mental-lever/the-state/" />
+                    <HyperlinkButton x:Uid="MainPage_StateTinyDot" Content="The Tiny Dot" NavigateUri="https://youtu.be/H6b70TUbdfs" />
+                    <HyperlinkButton x:Uid="MainPage_StateFranklinVoterSearch" Content="Franklin County Voter Search" NavigateUri="https://vote.franklincountyohio.gov/voter/voterSearch.cfm" />
+                    <HyperlinkButton x:Uid="MainPage_StateDelawareVoterSearch" Content="Delaware County Voter Search" NavigateUri="https://lookup.boe.ohio.gov/vtrapp/delaware/vtrlookup.aspx" />
+                    <HyperlinkButton x:Uid="MainPage_StateOhioVoterSearch" Content="Ohio Voter Search" NavigateUri="http://voterlookup.sos.state.oh.us/voterlookup.aspx" />
+                    <HyperlinkButton x:Uid="MainPage_StateOhioVoterData" Content="Ohio Voter Data" NavigateUri="http://www2.sos.state.oh.us/pls/voter/f?p=111:1" />
+                    <HyperlinkButton x:Uid="MainPage_StateFranklinVoterData" Content="Franklin County Voter Data" NavigateUri="https://vote.franklincountyohio.gov/maps-and-data/" />
+                    <HyperlinkButton x:Uid="MainPage_StateFranklinCourtSearch" Content="Franklin County Court Search" NavigateUri="https://fcdcfcjs.co.franklin.oh.us/CaseInformationOnline/" />
+                    <HyperlinkButton x:Uid="MainPage_StateFranklinCaseSearch" Content="Franklin County Case Search" NavigateUri="https://fcdcfcjs.co.franklin.oh.us/CaseInformationOnline/caseSearch" />
+                    <HyperlinkButton x:Uid="MainPage_StateFranklinPropertySearch" Content="Franklin County Property Search" NavigateUri="https://treapropsearch.franklincountyohio.gov/" />
+                    <HyperlinkButton x:Uid="MainPage_StateDelawarePropertySearch" Content="Delaware County Property Search" NavigateUri="http://www.delawarecountyauditor.org/" />
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Uid="MainPage_DownloadsHeading" Text="Downloads" FontSize="24" FontFamily="Protomolecule Regular" />
+
+                    <HyperlinkButton x:Uid="MainPage_DownloadsSkins" Content="Windows Media Player Skins" NavigateUri="https://40north.wordpress.com/category/technology/skins/" />
+                </StackPanel>
+            </StackPanel>
+
             <Button Content="Next Page" Click="GotoNextPage" />
         </StackPanel>
     </Grid>

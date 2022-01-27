@@ -16,6 +16,9 @@
     <_Globbed_Compile Remove="Radar.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
+    <_Globbed_PRIResource Remove="Strings\fr\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
     <_Globbled_Page Remove="About.xaml" />
     <_Globbled_Page Remove="Contact.xaml" />
     <_Globbled_Page Remove="Radar.xaml" />

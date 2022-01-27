@@ -22,6 +22,7 @@ namespace MarkNobleUno6
         public App()
         {
             InitializeLogging();
+            //ChangeStartingLanguage();
 
 #if __IOS__ || __ANDROID__
             Uno.UI.FeatureConfiguration.Style.ConfigureNativeFrameNavigation();
@@ -32,6 +33,13 @@ namespace MarkNobleUno6
 #if HAS_UNO || NETFX_CORE
             this.Suspending += OnSuspending;
 #endif
+        }
+
+        private void ChangeStartingLanguage()
+        {
+            var culture = new System.Globalization.CultureInfo("fr");
+
+            Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = culture.IetfLanguageTag;
         }
 
         /// <summary>
