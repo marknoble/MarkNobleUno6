@@ -1,0 +1,7 @@
+Assets/SplashScreen.png
+Assets/bannerCareer.jpg
+Assets/bannerSecurity.jpg
+Assets/bannerTrains.jpg
+Assets/bannerVoluntarism.jpg
+Fonts/Protomolecule.ttf
+Assets/SharedAssets.md
